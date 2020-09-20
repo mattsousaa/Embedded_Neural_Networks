@@ -465,3 +465,11 @@ C Model Exception: C Model Status [Element simple_neural_networks.h does not exi
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
 !SUBENTRY 1 org.eclipse.cdt.core 4 969 2020-09-20 15:09:41.601
 !MESSAGE Element simple_neural_networks.h does not exist.
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-20 15:55:48.122
+!MESSAGE Indexed '6_FindError' (29 sources, 105 headers) in 3,51 sec: 9.803 declarations; 46.231 references; 11 unresolved inclusions; 310 syntax errors; 1.979 unresolved names (3,4%)
+
+!ENTRY org.eclipse.core.resources 2 2 2020-09-20 16:00:44.602
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2020-09-20 16:00:44.602
+!MESSAGE The project description file (.project) for '1_single_in_single_out_nn' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.

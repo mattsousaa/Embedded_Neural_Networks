@@ -1,0 +1,19 @@
+16:16:37 **** Incremental Build of configuration Debug for project 6_FindError ****
+make -j4 all 
+arm-none-eabi-gcc -o "6_FindError.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\mateu\Documents\Workspace_stm\6_FindError\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="6_FindError.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 6_FindError.elf
+ 
+arm-none-eabi-objdump -h -S  6_FindError.elf  > "6_FindError.list"
+arm-none-eabi-objcopy  -O binary  6_FindError.elf  "6_FindError.bin"
+arm-none-eabi-size   6_FindError.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17804	    676	   1736	  20216	   4ef8	6_FindError.elf
+Finished building: default.size.stdout
+ 
+Finished building: 6_FindError.bin
+Finished building: 6_FindError.list
+ 
+ 
+
+16:16:38 Build Finished. 0 errors, 0 warnings. (took 702ms)
+
