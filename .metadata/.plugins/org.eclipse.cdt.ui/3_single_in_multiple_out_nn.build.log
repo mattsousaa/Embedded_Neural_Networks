@@ -1,0 +1,20 @@
+11:22:24 **** Incremental Build of configuration Debug for project 3_single_in_multiple_out_nn ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F767xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "3_single_in_multiple_out_nn.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\mateu\Documents\Workspace_stm\3_single_in_multiple_out_nn\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="3_single_in_multiple_out_nn.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 3_single_in_multiple_out_nn.elf
+ 
+arm-none-eabi-objdump -h -S  3_single_in_multiple_out_nn.elf  > "3_single_in_multiple_out_nn.list"
+arm-none-eabi-objcopy  -O binary  3_single_in_multiple_out_nn.elf  "3_single_in_multiple_out_nn.bin"
+arm-none-eabi-size   3_single_in_multiple_out_nn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15896	    508	   1736	  18140	   46dc	3_single_in_multiple_out_nn.elf
+Finished building: default.size.stdout
+ 
+Finished building: 3_single_in_multiple_out_nn.bin
+ 
+Finished building: 3_single_in_multiple_out_nn.list
+ 
+
+11:22:26 Build Finished. 0 errors, 0 warnings. (took 1s.670ms)
+

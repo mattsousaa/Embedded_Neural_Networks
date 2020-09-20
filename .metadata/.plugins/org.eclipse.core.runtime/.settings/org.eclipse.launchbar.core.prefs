@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:3_single_in_multiple_out_nn Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4_multiple_in_multiple_out_nn,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:uart_example,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:2_multiple_in_single_out_nn,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:5_hidden_layer_nn Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:5_hidden_layer_nn Debug (1)
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:5_hidden_layer_nn\ Debug\ (1)/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:5_hidden_layer_nn\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:uart_example/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:uart_example/activeLaunchTarget=null\:---

@@ -1,0 +1,10 @@
+15:19:35 **** Incremental Build of configuration Debug for project 5_hidden_layer_nn ****
+make -j4 all 
+arm-none-eabi-size   5_hidden_layer_nn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16096	    652	   1736	  18484	   4834	5_hidden_layer_nn.elf
+Finished building: default.size.stdout
+ 
+
+15:19:35 Build Finished. 0 errors, 0 warnings. (took 269ms)
+

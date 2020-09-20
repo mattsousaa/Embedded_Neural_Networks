@@ -1,0 +1,5 @@
+main.c:36:6:printmsg	96	static
+main.c:49:5:main	24	static
+main.c:65:6:SystemClock_Config	4	static
+main.c:69:6:UART3_Init	8	static
+main.c:85:6:Error_Handler	4	static

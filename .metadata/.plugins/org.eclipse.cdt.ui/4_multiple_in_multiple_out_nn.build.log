@@ -1,0 +1,10 @@
+12:17:56 **** Incremental Build of configuration Debug for project 4_multiple_in_multiple_out_nn ****
+make -j4 all 
+arm-none-eabi-size   4_multiple_in_multiple_out_nn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15952	    580	   1736	  18268	   475c	4_multiple_in_multiple_out_nn.elf
+Finished building: default.size.stdout
+ 
+
+12:17:56 Build Finished. 0 errors, 0 warnings. (took 370ms)
+
