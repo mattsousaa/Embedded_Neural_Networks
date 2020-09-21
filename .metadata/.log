@@ -662,3 +662,6 @@ java.io.FileNotFoundException: C:\Users\mateu\Documents\Workspace_stm\uart_examp
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-09-20 21:16:53.447
 !MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-20 23:25:05.619
+!MESSAGE Indexed '8_muscle_gain_nn_normalization' (29 sources, 106 headers) in 3,63 sec: 10.342 declarations; 46.348 references; 12 unresolved inclusions; 310 syntax errors; 1.981 unresolved names (3,4%)

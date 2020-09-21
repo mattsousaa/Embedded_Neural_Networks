@@ -1,31 +1,24 @@
-21:20:53 **** Incremental Build of configuration Debug for project 7_bruteforce_learning ****
+23:53:24 **** Incremental Build of configuration Debug for project 8_muscle_gain_nn_normalization ****
 make -j4 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F767xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "7_bruteforce_learning.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\mateu\Documents\Workspace_stm\7_bruteforce_learning\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="7_bruteforce_learning.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 7_bruteforce_learning.elf
+arm-none-eabi-gcc -o "8_muscle_gain_nn_normalization.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\mateu\Documents\Workspace_stm\8_muscle_gain_nn_normalization\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="8_muscle_gain_nn_normalization.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 8_muscle_gain_nn_normalization.elf
  
-arm-none-eabi-objdump -h -S  7_bruteforce_learning.elf  > "7_bruteforce_learning.list"
-arm-none-eabi-objcopy  -O binary  7_bruteforce_learning.elf  "7_bruteforce_learning.bin"
-arm-none-eabi-size   7_bruteforce_learning.elf 
+arm-none-eabi-objdump -h -S  8_muscle_gain_nn_normalization.elf  > "8_muscle_gain_nn_normalization.list"
+arm-none-eabi-objcopy  -O binary  8_muscle_gain_nn_normalization.elf  "8_muscle_gain_nn_normalization.bin"
+arm-none-eabi-size   8_muscle_gain_nn_normalization.elf 
    text	   data	    bss	    dec	    hex	filename
-  17612	    516	   1716	  19844	   4d84	7_bruteforce_learning.elf
+  16240	    556	   1784	  18580	   4894	8_muscle_gain_nn_normalization.elf
 Finished building: default.size.stdout
  
-Finished building: 7_bruteforce_learning.bin
+Finished building: 8_muscle_gain_nn_normalization.bin
  
-Finished building: 7_bruteforce_learning.list
+Finished building: 8_muscle_gain_nn_normalization.list
  
-21:23:48 **** Incremental Build of configuration Debug for project 7_bruteforce_learning ****
+23:53:28 **** Incremental Build of configuration Debug for project 8_muscle_gain_nn_normalization ****
 make -j4 all 
-arm-none-eabi-size   7_bruteforce_learning.elf 
+arm-none-eabi-size   8_muscle_gain_nn_normalization.elf 
    text	   data	    bss	    dec	    hex	filename
-  17612	    516	   1716	  19844	   4d84	7_bruteforce_learning.elf
-Finished building: default.size.stdout
- 
-21:23:53 **** Incremental Build of configuration Debug for project 7_bruteforce_learning ****
-make -j4 all 
-arm-none-eabi-size   7_bruteforce_learning.elf 
-   text	   data	    bss	    dec	    hex	filename
-  17612	    516	   1716	  19844	   4d84	7_bruteforce_learning.elf
+  16240	    556	   1784	  18580	   4894	8_muscle_gain_nn_normalization.elf
 Finished building: default.size.stdout
  

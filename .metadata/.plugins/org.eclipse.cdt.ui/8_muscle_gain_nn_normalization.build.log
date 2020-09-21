@@ -1,0 +1,10 @@
+23:53:28 **** Incremental Build of configuration Debug for project 8_muscle_gain_nn_normalization ****
+make -j4 all 
+arm-none-eabi-size   8_muscle_gain_nn_normalization.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16240	    556	   1784	  18580	   4894	8_muscle_gain_nn_normalization.elf
+Finished building: default.size.stdout
+ 
+
+23:53:29 Build Finished. 0 errors, 0 warnings. (took 432ms)
+
