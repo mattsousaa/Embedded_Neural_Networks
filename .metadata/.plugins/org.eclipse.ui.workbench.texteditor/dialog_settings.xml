@@ -6,12 +6,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="huart3"/>
+		<item key="selection" value="printmsg"/>
 		<list key="findhistory">
+			<item value="printf"/>
 			<item value="huart2"/>
 			<item value="huart3"/>
 		</list>
 		<list key="replacehistory">
+			<item value="printmsg"/>
 			<item value="huart3"/>
 			<item value="huart1"/>
 			<item value="huart2"/>

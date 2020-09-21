@@ -1,0 +1,12 @@
+simple_neural_networks.c:12:8:single_in_single_out_nn	24	static
+simple_neural_networks.c:16:8:weighted_sum	40	static
+simple_neural_networks.c:26:8:multiple_inputs_single_output_nn	40	static
+simple_neural_networks.c:35:6:elementwise_multiply	40	static
+simple_neural_networks.c:42:6:single_in_multiple_out_nn	32	static
+simple_neural_networks.c:46:6:matrix_vector_multiplication	40	static
+simple_neural_networks.c:54:6:multiple_in_multiple_out_nn	48	static
+simple_neural_networks.c:63:6:hidden_layer_nn	64	dynamic
+simple_neural_networks.c:78:8:find_error_simple	24	static
+simple_neural_networks.c:83:8:find_error	32	static
+simple_neural_networks.c:116:6:normalize_data	40	static
+simple_neural_networks.c:131:6:weights_random_initialization	56	static

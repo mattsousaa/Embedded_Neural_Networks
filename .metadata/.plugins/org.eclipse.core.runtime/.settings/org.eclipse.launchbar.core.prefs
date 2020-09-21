@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:6_FindError,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:uart_example,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:7_bruteforce_learning,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:8_muscle_gain_nn_normalization
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:7_bruteforce_learning Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:6_FindError,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:uart_example,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:9_random_initialization Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:5_hidden_layer_nn\ Debug\ (1)/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:5_hidden_layer_nn\ Debug/activeLaunchMode=debug

@@ -1,0 +1,10 @@
+10:51:32 **** Incremental Build of configuration Debug for project 9_random_initialization ****
+make -j4 all 
+arm-none-eabi-size   9_random_initialization.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16136	    484	   1856	  18476	   482c	9_random_initialization.elf
+Finished building: default.size.stdout
+ 
+
+10:51:32 Build Finished. 0 errors, 0 warnings. (took 432ms)
+
