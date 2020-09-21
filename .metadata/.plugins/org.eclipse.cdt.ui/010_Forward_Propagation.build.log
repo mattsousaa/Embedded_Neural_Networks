@@ -1,0 +1,19 @@
+16:15:08 **** Build of configuration Debug for project 010_Forward_Propagation ****
+make -j4 all 
+arm-none-eabi-gcc -o "010_Forward_Propagation.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\mateu\Documents\Workspace_stm\010_Forward_Propagation\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="010_Forward_Propagation.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 010_Forward_Propagation.elf
+ 
+arm-none-eabi-size   010_Forward_Propagation.elf 
+arm-none-eabi-objdump -h -S  010_Forward_Propagation.elf  > "010_Forward_Propagation.list"
+arm-none-eabi-objcopy  -O binary  010_Forward_Propagation.elf  "010_Forward_Propagation.bin"
+   text	   data	    bss	    dec	    hex	filename
+  18076	    560	   1944	  20580	   5064	010_Forward_Propagation.elf
+Finished building: default.size.stdout
+Finished building: 010_Forward_Propagation.bin
+ 
+ 
+Finished building: 010_Forward_Propagation.list
+ 
+
+16:15:12 Build Finished. 0 errors, 0 warnings. (took 3s.820ms)
+
