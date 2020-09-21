@@ -96,13 +96,22 @@ double up_prediction, down_prediction, up_error, down_error;
 		up_prediction = input * (weight + step_amount);
 		up_error      = powf((up_prediction - expected_value), 2);
 
+		printmsg("Up Error: %f   Up Prediction: %f \r\n", up_error, up_prediction);
+
 		down_prediction = input * (weight - step_amount);
 		down_error      = powf((down_prediction - expected_value), 2);
 
-		if(down_error < up_error)
+		printmsg("Down Error: %f   Down Prediction: %f \r\n", down_error, down_prediction);
+
+		if(down_error < up_error){
 			weight = weight - step_amount;
-		if(down_error > up_error)
+			printmsg("Weight: %f   \r\n\r\n", weight);
+		}
+
+		if(down_error > up_error){
 			weight = weight + step_amount;
+			printmsg("Weight: %f   \r\n\r\n", weight);
+		}
 	}
 }
 
