@@ -726,3 +726,9 @@ java.io.FileNotFoundException: C:\Users\mateu\Documents\Workspace_stm\uart_examp
 
 !ENTRY org.eclipse.cdt.core 1 0 2020-09-21 10:30:50.208
 !MESSAGE Indexed '9_random_initialization' (29 sources, 106 headers) in 7,56 sec: 10.342 declarations; 46.378 references; 11 unresolved inclusions; 310 syntax errors; 1.981 unresolved names (3,4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-21 11:05:52.514
+!MESSAGE Indexed '10_Forward_Propagation' (29 sources, 106 headers) in 2,41 sec: 10.353 declarations; 46.374 references; 11 unresolved inclusions; 310 syntax errors; 1.985 unresolved names (3,4%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2020-09-21 12:47:29.477
+!MESSAGE Won't launch debug session since we failed to locate the binary.

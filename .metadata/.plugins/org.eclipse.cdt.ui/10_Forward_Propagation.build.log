@@ -1,0 +1,10 @@
+12:53:29 **** Incremental Build of configuration Debug for project 10_Forward_Propagation ****
+make -j4 all 
+arm-none-eabi-size   10_Forward_Propagation.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18084	    560	   1944	  20588	   506c	10_Forward_Propagation.elf
+Finished building: default.size.stdout
+ 
+
+12:53:29 Build Finished. 0 errors, 0 warnings. (took 596ms)
+

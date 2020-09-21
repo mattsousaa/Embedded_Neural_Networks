@@ -59,9 +59,6 @@ int main(void){
 	SystemClock_Config();
 	UART3_Init();
 
-	weights_random_initialization(NUM_OF_HID_NODES, NUM_OF_FEATURES, syn0);
-	weights_random_initialization(NUM_OF_OUT_NODES, NUM_OF_HID_NODES, syn1);
-
 	normalize_data(x1, _x1, NUM_OF_EXAMPLES);
 	normalize_data(x2, _x2, NUM_OF_EXAMPLES);
 	normalize_data(y, _y, NUM_OF_EXAMPLES);

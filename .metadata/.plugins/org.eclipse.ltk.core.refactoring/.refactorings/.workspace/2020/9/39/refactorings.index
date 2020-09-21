@@ -10,3 +10,7 @@
 1600655109128	Delete resource '8_muscle_gain_nn_normalization/7_bruteforce_learning Debug.launch'
 1600656886893	Delete resource '8_muscle_gain_nn_normalization/7_bruteforce_learning.launch'
 1600696123926	Delete resource '9_random_initialization/8_muscle_gain_nn_normalization.launch'
+1600703256234	Delete resource '10_Forward_Propagation/9_random_initialization Debug.launch'
+1600703259756	Delete resource '10_Forward_Propagation/10_Forward_Propagation Debug.launch'
+1600703262795	Delete resource '10_Forward_Propagation/10_Forward_Propagation Debug (1).launch'
+1600703376674	Delete resource '10_Forward_Propagation/7_bruteforce_learning.launch'
